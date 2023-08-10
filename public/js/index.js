@@ -34,7 +34,7 @@ function navCate() {
   menuCategories.addEventListener("click", () => {
     if (!isOpen) {
       console.log(isOpen)
-      dropdownCategories.style.height = "490px";
+      dropdownCategories.style.height = "480px";
       isOpen = true;
     } else {
       dropdownCategories.style.height = "0";

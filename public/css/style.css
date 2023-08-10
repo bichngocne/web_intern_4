@@ -177,6 +177,7 @@ ul {
     display: flex;
 }
 .list-category .category-item {
+    background-color: #f8f8f8;
     padding-left: 10px;
     display: flex;
     align-items: center;
