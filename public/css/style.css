@@ -291,7 +291,7 @@ ul {
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-
+    padding-bottom: 15px;
 }
 
 .line {
@@ -352,6 +352,10 @@ ul {
     border-bottom: 1px solid #CED4DA;
     height: 180px;
 
+}
+
+.item-6 img{
+    width: 100%;
 }
 
 .content-product .sp-text-1 {
@@ -496,6 +500,7 @@ ul {
 .rec {
     width: 186px;
     height: 186px;
+    margin-bottom: 70px;
 }
 
 .rec-2-img {
@@ -539,10 +544,21 @@ ul {
     background: #FFFFFF;
     padding: 20px;
 }
-
-
+.item-3{
+    height: 350px !important;
+}
+.wrapper-product-3{
+    display: flex;
+}
+.img-item{
+    width: 80px !important;
+    height: 80px !important;
+}
+.splide__track--nav>.splide__list>.splide__slide.is-active {
+    border: 2px solid #e4e3e3 !important;
+    border-radius: 8px;
+}
 .wrapper-content-6 {
-    height: 660px;
     top: 66px;
     width: 100%;
     z-index: -99999;
