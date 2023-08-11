@@ -104,15 +104,32 @@
     .list-category{
         height: 0 ;
     }
+    .md\:grid-col-3{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+   
 }
 
 @media only screen and (max-width: 480px) {
-    * {
-        font-size: 11px;
+    .content-5 .w-layout{
+        width: 100% !important;
     }
-
+   
+    .content-product .sp-text-2 {
+        width: 150px;
+    }
+    .wrapper-footer .item{
+        width: 100%;
+    }
+    .header-top{
+        justify-content: unset !important;
+        margin: auto;
+    }
     .sm\:grid-col-1 {
         grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .sm\:grid-col-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .mid {
